@@ -1,2 +1,19 @@
 print("hello world")
-whatw hat 
+
+# Basic if-else statement
+x = 10
+
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is less than or equal to 5")
+
+# Another example with elif
+age = 18
+
+if age < 13:
+    print("You are a child")
+elif age < 20:
+    print("You are a teenager")
+else:
+    print("You are an adult") 
